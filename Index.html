@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SF Airbnb Listings</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <h1>🏠 San Francisco Airbnb Listings</h1>
+    <p>Showing the first 50 listings from San Francisco</p>
+
+    <div class="controls">
+        <select id="sortBox">
+            <option value="default">Sort by: Default</option>
+            <option value="priceLow">Price: Low to High</option>
+            <option value="priceHigh">Price: High to Low</option>
+            <option value="rating">Rating: High to Low</option>
+        </select>
+    </div>
+
+    <main>
+        <section class="listings" id="listings">
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for visiting my page❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
