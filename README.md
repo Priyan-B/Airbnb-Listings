@@ -16,4 +16,5 @@ For each listing:
   
 ## My Creative Additions:
 **Sort Dropdown** — sort listings by price (low/high) or by rating
+
 **Favorite Heart Button** — click the heart on any card to mark it as a favorite
